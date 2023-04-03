@@ -29,6 +29,7 @@ function Projects({}: Props) {
               (max-width: 1200px) 50vw,
               33vw"
             style={{ height: "100%", width: "auto" }}
+            alt="ks-logo"
           />
         </div>
       </div>
