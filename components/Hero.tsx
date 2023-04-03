@@ -9,13 +9,15 @@ type Props = {};
 function Hero({}: Props) {
   return (
     <div className="hero pt-40 pb-24 sm:top-[90px] md:top-[90px] xl:top-0 relative">
-      <motion.div
+      {/* <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className="hero-content text-center"
-      >
+      > */}
+
+      <div className="hero-content text-center">
         <div className="sm:max-w-[80vw] lg:max-w-[80vw] xl:max-w-[40vw]">
           <motion.h1
             variants={textVariant(0.7)}
@@ -66,7 +68,7 @@ function Hero({}: Props) {
             </div>
           </div> */}
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 }
