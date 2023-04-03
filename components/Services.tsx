@@ -22,14 +22,10 @@ function Services({}: Props) {
       <div className="flex flex-row justify-center flex-wrap container p-10 gap-10 top-20 relative w-full mx-auto">
         <CardService
           title="Projektujemy"
-          description={
-            <Fragment>
-              Tworzenie niestandardowych, wysokiej klasy projektów stron
+          description="Tworzenie niestandardowych, wysokiej klasy projektów stron
               internetowych opartych na inteligentnych strategiach
               zorientowanych na markę i zorientowanych na wyniki to nasza
-              specjalność.
-            </Fragment>
-          }
+              specjalność."
         />
 
         <CardService
