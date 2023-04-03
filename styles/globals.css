@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Lufga-Bold';
+    src: url('../public/fonts/55c734255eace14b5028fc0d6893178c.woff2') format('woff2'),
+        url('../public/fonts/55c734255eace14b5028fc0d6893178c.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga-Medium';
+    src: url('../public/fonts/211c91a25a11e55197c59bbbf3f2b5b0.woff2') format('woff2'),
+        url('../public/fonts/211c91a25a11e55197c59bbbf3f2b5b0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga-Regular';
+    src: url('../public/fonts/89fc75b964203d5d9fa8ba0991ee4441.woff2') format('woff2'),
+        url('../public/fonts/89fc75b964203d5d9fa8ba0991ee4441.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lufga-SemiBold';
+    src: url('../public/fonts/f4a66c758b4ac062f39eef3615b00685.woff2') format('woff2'),
+        url('../public/fonts/f4a66c758b4ac062f39eef3615b00685.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html, body {
+    font-family: 'Lufga-Regular', sans-serif;
+    @apply dark:bg-slate-900 bg-white dark:text-gray-100
+
+    
+}
+
+.fo-regular {
+    font-family: 'Lufga-Regular', sans-serif;
+}
+
+.fo-bold {
+    font-family: 'Lufga-Bold', sans-serif;
+}
+
+.fo-medium {
+    font-family: 'Lufga-Medium', sans-serif;
+}
+
+.fo-semibold {
+    font-family: 'Lufga-SemiBold', sans-serif;
+}
+
+.menu li {
+    @apply hover:border-none
+}
+
+
+
+.ul-effect{
+    @apply bg-gradient-to-l dark:from-[#c49f33] dark:to-[#bd6b3c] from-[#ffd143] to-[#ff9153]; 
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  #ffd143 0%, #ff9153 90% ); */
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 70%;
+    transition: background-size 0.25s ease-in;
+    padding: 0.2em 0 0.2em 0;
+    /* box-shadow: inset 0 -.4em; */
+}
+
+.read-more::before {
+    content: "";
+    display: inline-block;
+    background: rgb(249, 115, 22);
+    transform: translate(-30%, -100%);
+    width: 20px;
+    height: 3px;
+}
+
+.read-more:hover {
+    content: "";
+    display: inline-block;
+    background: rgb(249, 115, 22);
+    transform: translate(-30%, -100%);
+    width: 20px;
+    height: 3px;
+}
+
+
+.service-bg {
+    background: rgb(255 237 213);
+    
+}
+
+.cursor {
+    background-color: #ff2000;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.swiper {
+    width: 100%;
+    height: auto + '100px';
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+
+  .swiper-pagination-bullet-active {
+    
+    @apply bg-[#f97316] !important;
+  }
+
+  .btn-submit {
+    @apply dark:bg-orange-500 bg-orange-500 text-white dark:text-white fo-medium flex-row transition-all hover:bg-orange-600 hover:scale-[1.05] hover:translate-y-1  border-none ;
+  }
