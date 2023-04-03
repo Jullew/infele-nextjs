@@ -14,7 +14,7 @@ function Projects({}: Props) {
   return (
     <div className="container  mx-auto flex flex-row flex-wrap gap-4 flex-auto w-[100%]">
       <div className="w-[5%] h-full">
-        <div className="leading-none fo-bold flex  text-left text-[65px] lg:break-words  w-1 sm:text-[100px]  md:text-[100px] xl:text-[90px]">
+        <div className="leading-none fo-bold flex  lg:w-px lg:text-left text-[65px] lg:break-all w-[100%] sm:text-[100px]  md:text-[100px] xl:text-[90px]">
           PROJEKTY
         </div>
       </div>

@@ -1,4 +1,6 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Webdesign from "@/components/Webdesign";
 import React from "react";
 
 type Props = {};
@@ -7,7 +9,8 @@ function strony_internetowe({}: Props) {
   return (
     <div>
       <Header />
-      strony-internetowe
+      <Webdesign />
+      <Footer />
     </div>
   );
 }

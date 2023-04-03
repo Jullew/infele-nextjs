@@ -6,7 +6,7 @@ type Props = {};
 
 function Footer({}: Props) {
   return (
-    <div className="bg-gray-800 dark:bg-gray-900 py-6 px-20 mt-16 text-gray-200">
+    <div className="bg-gray-800 dark:bg-gray-900 py-6 px-20 static bottom-0 text-gray-200">
       <div className="container mx-auto">
         <div className="flex flex-row flex-auto">
           <div className="w-1/2"></div>

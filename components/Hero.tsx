@@ -37,10 +37,10 @@ function Hero({}: Props) {
             ruch i przychody Twojej firmy.
           </motion.p>
           <motion.div variants={textVariant(1.3)} className="my-4">
-            <button className="bg-orange-500 dark:text-white m-4 p-4 w-auto fo-medium flex-row btn rounded-full shadow-md hover:bg-orange-600 hover:scale-[1.05] hover:translate-y-1 hover:shadow-lg border-none ">
+            <button className="bg-orange-500  dark:text-white m-4  p-4  transition-all w-auto px-6  fo-semibold flex-row btn rounded-full shadow-md  hover:text-white hover:border-orange-400 hover:scale-[1.05] hover:bg-orange-700 hover:translate-y-1 hover:shadow-lg border-none ">
               Porozmawiajmy
             </button>
-            <button className="border-orange-500 dark:text-white fo-medium bg-transparent border-1 text-gray-700  p-4 w-auto flex-row btn rounded-full shadow-md hover:bg-orange-500 hover:text-white hover:border-orange-400 hover:scale-[1.05] hover:translate-y-1 hover:shadow-lg mx-4">
+            <button className="border-orange-500 dark:text-white fo-medium bg-transparent border-1 fo-semibold text-gray-700  p-4 w-auto flex-row btn rounded-full shadow-md hover:bg-orange-500 hover:text-white hover:border-orange-400 hover:scale-[1.05] hover:translate-y-1 hover:shadow-lg mx-4">
               Nasze projekty
             </button>
           </motion.div>

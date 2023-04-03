@@ -26,7 +26,7 @@ function Contact() {
   };
 
   return (
-    <div className="flex flex-row flex-wrap flex-auto mt-10 container mx-auto">
+    <div className="flex flex-row flex-wrap flex-auto my-24 container mx-auto">
       <div className="w-[100%] lg:w-1/2 p-6 justify-center items-center">
         <span className="fo-bold ul-effect text-6xl">Masz pomysł?</span>
         <p className="text-2xl py-6 leading-10 ">

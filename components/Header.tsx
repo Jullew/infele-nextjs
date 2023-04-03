@@ -148,7 +148,7 @@ function Header({}: Props) {
                       <RiPagesFill color="white" className="" />
                     </div>
                     <div className="flex flex-col">
-                      <div className="fo-bold">Strony internetowe</div>
+                      <div className="fo-semibold">Strony internetowe</div>
                       <div className="text-gray-400 fo-regular  text-sm">
                         Stwórz swoją stronę
                       </div>
@@ -161,8 +161,8 @@ function Header({}: Props) {
                       <RiPagesFill color="white" className="" />
                     </div>
                     <div className="flex flex-col">
-                      <div>Sklepy internetowe</div>
-                      <div className="text-gray-400 text-sm">
+                      <div className="fo-semibold">Sklepy internetowe</div>
+                      <div className="text-gray-400 fo-regular text-sm">
                         Otwórz swój sklep online
                       </div>
                     </div>
@@ -177,8 +177,10 @@ function Header({}: Props) {
                       <RiPagesFill color="white" className="" />
                     </div>
                     <div className="flex flex-col">
-                      <div>Pozycjonowanie stron SEO</div>
-                      <div className="text-gray-400 text-sm">
+                      <div className="fo-semibold">
+                        Pozycjonowanie stron SEO
+                      </div>
+                      <div className="text-gray-400 fo-regular text-sm">
                         Zwiększ widoczność w wyszukiwarkach
                       </div>
                     </div>
