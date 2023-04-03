@@ -26,15 +26,15 @@ function Contact() {
   };
 
   return (
-    <div className="flex flex-row flex-auto mt-10 container mx-auto">
-      <div className="w-1/2 p-6 justify-center items-center">
+    <div className="flex flex-row flex-wrap flex-auto mt-10 container mx-auto">
+      <div className="w-[100%] lg:w-1/2 p-6 justify-center items-center">
         <span className="fo-bold ul-effect text-6xl">Masz pomysł?</span>
         <p className="text-2xl py-6 leading-10 ">
           Tworzymy produkty, które kochają ludzie. Spełnimy Twoje marzenie -
           urzeczywistnimy Twój pomysł dostarczając niesamowite doświadczenia
         </p>
       </div>
-      <div className="w-1/2 bg-white dark:bg-gray-900 shadow-2xl rounded-xl p-6 ">
+      <div className="w-[90%] mx-auto lg:w-1/2 bg-white dark:bg-gray-900 shadow-2xl rounded-xl p-6 ">
         <form ref={form} className="flex flex-col" onSubmit={sendEmail}>
           <label>Imię</label>
           <input

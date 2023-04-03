@@ -21,7 +21,17 @@ function TestimonialsSwiper({}: Props) {
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
-        slidesPerView={3}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1080: {
+            slidesPerView: 3,
+          },
+        }}
         grabCursor={true}
         loop={true}
         autoplay={{

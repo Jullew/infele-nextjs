@@ -12,13 +12,13 @@ type Props = {};
 
 function Projects({}: Props) {
   return (
-    <div className="container  mx-auto flex flex-row gap-4 flex-auto w-[100%]">
+    <div className="container  mx-auto flex flex-row flex-wrap gap-4 flex-auto w-[100%]">
       <div className="w-[5%] h-full">
-        <div className="leading-none fo-bold  text-left text-[65px] break-words w-1 sm:text-[100px]  md:text-[100px] xl:text-[90px]">
+        <div className="leading-none fo-bold flex  text-left text-[65px] lg:break-words  w-1 sm:text-[100px]  md:text-[100px] xl:text-[90px]">
           PROJEKTY
         </div>
       </div>
-      <div className="w-auto h-full ">
+      <div className=" w-[100%] m-4 lg:m-0 lg:w-auto h-auto  ">
         <div className="bg-orange-50 rounded-xl w-auto h-[400px]">
           <Image
             src={ksBizuteria}
@@ -33,7 +33,7 @@ function Projects({}: Props) {
           />
         </div>
       </div>
-      <div className="w-[35%] flex-1 h-full">
+      <div className="w-[35%] m-4 lg:m-0 flex-1 h-full">
         <div className="bg-orange-50 rounded-xl w-full h-[400px]"></div>
       </div>
 
