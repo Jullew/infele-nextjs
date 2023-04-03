@@ -14,7 +14,7 @@ export default function Home() {
   });
 
   useEffect(() => {
-    const mouseMove = (e) => {
+    const mouseMove = (e: any) => {
       setMousePosition({
         x: e.clientX,
         y: e.clientY,

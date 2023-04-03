@@ -1,8 +1,8 @@
 import React from "react";
 import { TbStarFilled } from "react-icons/tb";
-
+import { GoPerson } from "react-icons/go";
 type Props = {
-  avatar: object;
+  avatar: any;
   name: string;
   source: string;
   desc: string;
