@@ -11,7 +11,7 @@ function Footer({}: Props) {
         <div className="flex flex-row flex-auto">
           <div className="w-1/2"></div>
           <div className="w-1/2 flex justify-end mb-6 align-center">
-            <Image src={LogoFooter} height={80} />
+            <Image src={LogoFooter} height={80} alt="infele.pl" />
           </div>
         </div>
         <div className="w-full h-[2px] bg-gray-600"></div>
