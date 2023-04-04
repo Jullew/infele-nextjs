@@ -58,10 +58,10 @@ function Header({}: Props) {
               className="menu menu-compact dropdown-content font-bold mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link href="/">Start</Link>
+                <a href="/">Start</a>
               </li>
               <li tabIndex={0}>
-                <div className="justify-between">
+                <a className="justify-between">
                   Oferta
                   <svg
                     className="fill-current"
@@ -72,31 +72,23 @@ function Header({}: Props) {
                   >
                     <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                   </svg>
-                </div>
-                <ul className="p-2 bg-white rounded-xl shadow-md">
+                </a>
+                <ul className="p-2">
                   <li>
-                    <Link href="/nowoczesne-strony-internetowe">
+                    <a href="/nowoczesne-strony-internetowe">
                       Strony internetowe
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link href="/nowoczesne-sklepy-internetowe">
-                      Sklepy internetowe
-                    </Link>
+                    <a>Sklepy internetowe</a>
                   </li>
                   <li>
-                    <Link href="/pozycjonowanie">Pozycjonowanie</Link>
+                    <a>Pozycjonowanie</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link href="/case-studies">Case Studies</Link>
-              </li>
-              <li>
-                <Link href="/blog">Blog</Link>
-              </li>
-              <li>
-                <Link href="/kontakt">Kontakt</Link>
+                <a>Item 3</a>
               </li>
             </ul>
           </div>
@@ -156,7 +148,7 @@ function Header({}: Props) {
                   WEB DESIGN
                 </div>
                 <li>
-                  <Link
+                  <a
                     href="nowoczesne-strony-internetowe"
                     className="active:bg-orange-500 group focus:bg-none"
                   >
@@ -169,10 +161,10 @@ function Header({}: Props) {
                         Stwórz swoją stronę
                       </div>
                     </div>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="nowoczesne-sklepy-internetowe"
                     className="active:bg-orange-500 group focus:bg-none"
                   >
@@ -185,13 +177,13 @@ function Header({}: Props) {
                         Otwórz swój sklep online
                       </div>
                     </div>
-                  </Link>
+                  </a>
                 </li>
                 <div className="text-gray-500 text-center text-sm tracking-widest mt-2">
                   MARKETING
                 </div>
                 <li>
-                  <Link
+                  <a
                     href="pozycjonowanie"
                     className="active:bg-orange-500 group focus:bg-none"
                   >
@@ -206,7 +198,7 @@ function Header({}: Props) {
                         Zwiększ widoczność w wyszukiwarkach
                       </div>
                     </div>
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -241,12 +233,9 @@ function Header({}: Props) {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link
-            href="/zaczynamy"
-            className="btn-submit p-2 rounded-full cursor-pointer lg:flex"
-          >
+          <a className="btn-submit p-2 rounded-full cursor-pointer lg:flex">
             Rozpocznij projekt
-          </Link>
+          </a>
         </div>
       </motion.div>
     </header>

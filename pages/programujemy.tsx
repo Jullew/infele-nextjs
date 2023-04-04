@@ -12,7 +12,7 @@ function programujemy({}: Props) {
       <Cursor />
       <Header />
       <div className="container mx-auto pt-40 pb-20">
-        <h1 className="fo-bold text-[80px] lg:text-[150px] text-center">
+        <h1 className="fo-bold text-[80px]  lg:text-[150px] text-center">
           CO DZISIAJ ROBIMY?
         </h1>
         <div className="flex flex-row gap-10 justify-center flex-wrap">

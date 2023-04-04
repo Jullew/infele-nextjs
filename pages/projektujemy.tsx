@@ -12,10 +12,10 @@ function projektujemy({}: Props) {
       <Cursor />
       <Header />
       <div className="container mx-auto pt-40 pb-20">
-        <h1 className="fo-bold text-[42px] md:text-[70px] xl:text-[150px] text-center">
+        <h1 className="fo-bold text-[42px] md:text-[70px] leading-[1em] xl:text-[140px] text-center">
           A WIĘC PROJEKTOWANIE...
         </h1>
-        <div className="flex flex-row gap-10 justify-center flex-wrap">
+        <div className="flex flex-row gap-10 md:-mt-6 xl:-mt-12 justify-center flex-wrap">
           <CardService
             title="Stronę internetową"
             description="Opis tego"

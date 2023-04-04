@@ -55,7 +55,7 @@ function Technologies({}: Props) {
         <h2 className="text-[120px] fo-bold text-center">
           STACK TECHNOLOGICZNY
         </h2>
-        <div className="flex text-gray-800 w-full flex-wrap justify-center  flex-row ">
+        <div className="flex text-gray-800 w-full flex-wrap justify-center flex-row ">
           <div className="text-md w-1/6 border-t-2 flex justify-center flex-col  gap-2 items-center border-r-2 p-6">
             <SiGraphql color="#de33a6" size={60} />
             GraphQL
