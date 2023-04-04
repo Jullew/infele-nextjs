@@ -58,10 +58,10 @@ function Header({}: Props) {
               className="menu menu-compact dropdown-content font-bold mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a href="/">Start</a>
+                <Link href="/">Start</Link>
               </li>
               <li tabIndex={0}>
-                <a className="justify-between">
+                <div className="justify-between">
                   Oferta
                   <svg
                     className="fill-current"
@@ -72,31 +72,31 @@ function Header({}: Props) {
                   >
                     <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                   </svg>
-                </a>
+                </div>
                 <ul className="p-2 bg-white rounded-xl shadow-md">
                   <li>
-                    <a href="/nowoczesne-strony-internetowe">
+                    <Link href="/nowoczesne-strony-internetowe">
                       Strony internetowe
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/nowoczesne-sklepy-internetowe">
+                    <Link href="/nowoczesne-sklepy-internetowe">
                       Sklepy internetowe
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/pozycjonowanie">Pozycjonowanie</a>
+                    <Link href="/pozycjonowanie">Pozycjonowanie</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/case-studies">Case Studies</a>
+                <Link href="/case-studies">Case Studies</Link>
               </li>
               <li>
-                <a href="/blog">Blog</a>
+                <Link href="/blog">Blog</Link>
               </li>
               <li>
-                <a href="/kontakt">Kontakt</a>
+                <Link href="/kontakt">Kontakt</Link>
               </li>
             </ul>
           </div>
@@ -156,7 +156,7 @@ function Header({}: Props) {
                   WEB DESIGN
                 </div>
                 <li>
-                  <a
+                  <Link
                     href="nowoczesne-strony-internetowe"
                     className="active:bg-orange-500 group focus:bg-none"
                   >
@@ -169,10 +169,10 @@ function Header({}: Props) {
                         Stwórz swoją stronę
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="nowoczesne-sklepy-internetowe"
                     className="active:bg-orange-500 group focus:bg-none"
                   >
@@ -185,13 +185,13 @@ function Header({}: Props) {
                         Otwórz swój sklep online
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </li>
                 <div className="text-gray-500 text-center text-sm tracking-widest mt-2">
                   MARKETING
                 </div>
                 <li>
-                  <a
+                  <Link
                     href="pozycjonowanie"
                     className="active:bg-orange-500 group focus:bg-none"
                   >
@@ -206,7 +206,7 @@ function Header({}: Props) {
                         Zwiększ widoczność w wyszukiwarkach
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -241,9 +241,12 @@ function Header({}: Props) {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn-submit p-2 rounded-full cursor-pointer lg:flex">
+          <Link
+            href="/zaczynamy"
+            className="btn-submit p-2 rounded-full cursor-pointer lg:flex"
+          >
             Rozpocznij projekt
-          </a>
+          </Link>
         </div>
       </motion.div>
     </header>
