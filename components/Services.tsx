@@ -26,16 +26,19 @@ function Services({}: Props) {
               internetowych opartych na inteligentnych strategiach
               zorientowanych na markę i zorientowanych na wyniki to nasza
               specjalność."
+          link="/projektujemy"
         />
 
         <CardService
           title="Programujemy"
           description="Oferujemy tworzenie firmowych stron internetowych, sklepów eCommerce oraz niestandardowych aplikacji internetowych.
           "
+          link="/programujemy"
         />
         <CardService
           title="Pozycjonujemy"
           description="Algorytmy dotyczące optymalizacji wyszukiwarek zawsze ewoluują; jesteśmy na bieżąco z najnowszymi zmianami, aby pomóc klientom uzyskać wyższą pozycję."
+          link="/pozycjonujemy"
         />
       </div>
     </div>

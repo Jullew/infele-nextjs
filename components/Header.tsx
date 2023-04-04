@@ -87,7 +87,7 @@ function Header({}: Props) {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">
+          <Link href="/">
             <div className="dark:hidden">
               <Image
                 src={Logo}
@@ -104,7 +104,7 @@ function Header({}: Props) {
                 className="transition-all"
               />
             </div>
-          </a>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal font-semibold px-1">
@@ -201,9 +201,15 @@ function Header({}: Props) {
             <li>
               <a>Blog</a>
             </li>
-            <li>
-              <a>Kontakt</a>
-            </li>
+            <Link href="kontakt">
+              <li
+                className={`${
+                  router.pathname == "/kontakt" ? "text-orange-500" : ""
+                } p-5`}
+              >
+                Kontakt
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="navbar-end">

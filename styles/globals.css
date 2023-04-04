@@ -42,12 +42,40 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+@layer base {
+    html {
+      @apply scroll-smooth;
+    }
+  }
+
 html, body {
     font-family: 'Lufga-Regular', sans-serif;
-    @apply dark:bg-slate-900 bg-white dark:text-gray-100 scroll-smooth
-    
+    @apply dark:bg-slate-900 bg-white dark:text-gray-100 scroll-smooth;
+    cursor:none;
 
     
+}
+
+.large_circle, .small_circle{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color:rgba(249, 115, 22, 0.5);
+    position: fixed;
+  pointer-events: none;
+  transition: transform 0.1s;
+  z-index:9999;
+
+}
+
+.text-head {
+    color: #1e1666;
+    @apply fo-bold;
+}
+.small_circle {
+    width: 16px;
+    height: 16px;
+    background-color:rgb(249, 115, 22)
 }
 
 .fo-regular {
@@ -83,6 +111,10 @@ html, body {
     /* box-shadow: inset 0 -.4em; */
 }
 
+.ul-effect .hover:hover {
+    background-size: 100% 1em;
+    background-position: 0 55%;
+}
 .read-more::before {
     content: "";
     display: inline-block;

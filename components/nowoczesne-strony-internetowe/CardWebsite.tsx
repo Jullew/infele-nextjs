@@ -1,16 +1,11 @@
-import Link from "next/link";
 import React from "react";
 
-type Props = {
-  title: string;
-  description: string;
-  link: string;
-};
+type Props = { title: string; description: string };
 
-function CardService({ title, description, link }: Props) {
+function CardWebsite({ title, description }: Props) {
   return (
-    <div className="md:w-[30%] sm:w-1/1 md:min-w-[40%] lg:min-w-[40%] xl:min-w-[31%] min-w-[94vw] relative dark:bg-gray-900 dark:bg-opacity-80 dark:shadow-xl dark:hover:bg-gray-800 bg-white group focus:bg-orange-100 focus:shadow-lg hover:bg-orange-100 transition hover:shadow-lg bg-opacity-90 z-2 shadow-md p-8 rounded-lg ">
-      <Link href={link}>
+    <div>
+      <div className="md:w-[60%] sm:w-1/1 md:min-w-[40%] lg:min-w-[40%] xl:min-w-[31%] min-w-[94vw] relative dark:bg-gray-900 dark:bg-opacity-80 dark:shadow-xl dark:hover:bg-gray-800 bg-white group focus:bg-orange-100 focus:shadow-lg hover:bg-orange-100 transition hover:shadow-lg bg-opacity-90 z-2 shadow-md p-8 rounded-lg ">
         <div className="fo-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl">
           {title}
         </div>
@@ -20,9 +15,9 @@ function CardService({ title, description, link }: Props) {
           <span className="text-orange-500 fo-bold">—</span> WIĘCEJ INFORMACJI{" "}
           <span className="text-orange-500 fo-bold">—</span>
         </div>
-      </Link>
+      </div>
     </div>
   );
 }
 
-export default CardService;
+export default CardWebsite;
