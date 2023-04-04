@@ -200,7 +200,7 @@ function Header({}: Props) {
                     </div>
                     <div className="flex flex-col">
                       <div className="fo-semibold">
-                        Pozycjonowanie stron SEO
+                        Pozycjonowanie stron (SEO)
                       </div>
                       <div className="text-gray-400 group-active:text-orange-800 fo-regular  text-sm">
                         Zwiększ widoczność w wyszukiwarkach
