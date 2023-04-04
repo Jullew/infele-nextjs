@@ -1,6 +1,6 @@
 import React from "react";
 
-type Props = { title: string; subtitle: string };
+type Props = { title: any; subtitle: string };
 
 function PageHeading({ title, subtitle }: Props) {
   return (

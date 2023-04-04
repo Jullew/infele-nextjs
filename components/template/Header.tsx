@@ -58,11 +58,11 @@ function Header({}: Props) {
               className="menu menu-compact dropdown-content font-bold mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Item 1</a>
+                <a href="/">Start</a>
               </li>
               <li tabIndex={0}>
                 <a className="justify-between">
-                  Parent
+                  Oferta
                   <svg
                     className="fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -73,17 +73,30 @@ function Header({}: Props) {
                     <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                   </svg>
                 </a>
-                <ul className="p-2">
+                <ul className="p-2 bg-white rounded-xl shadow-md">
                   <li>
-                    <a>Submenu 1</a>
+                    <a href="/nowoczesne-strony-internetowe">
+                      Strony internetowe
+                    </a>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <a href="/nowoczesne-sklepy-internetowe">
+                      Sklepy internetowe
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/pozycjonowanie">Pozycjonowanie</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a>Item 3</a>
+                <a href="/case-studies">Case Studies</a>
+              </li>
+              <li>
+                <a href="/blog">Blog</a>
+              </li>
+              <li>
+                <a href="/kontakt">Kontakt</a>
               </li>
             </ul>
           </div>
@@ -143,7 +156,10 @@ function Header({}: Props) {
                   WEB DESIGN
                 </div>
                 <li>
-                  <a className="active:bg-orange-500 group focus:bg-none">
+                  <a
+                    href="nowoczesne-strony-internetowe"
+                    className="active:bg-orange-500 group focus:bg-none"
+                  >
                     <div className="justify-center items-center group-active:bg-white text-white group-active:text-orange-500 bg-orange-500 w-[40px] h-[40px] flex rounded-full">
                       <RiPagesFill className="" />
                     </div>
@@ -156,7 +172,10 @@ function Header({}: Props) {
                   </a>
                 </li>
                 <li>
-                  <a href="strony-internetowe">
+                  <a
+                    href="nowoczesne-sklepy-internetowe"
+                    className="active:bg-orange-500 group focus:bg-none"
+                  >
                     <div className="justify-center items-center group-active:bg-white text-white group-active:text-orange-500 bg-orange-500 w-[40px] h-[40px] flex rounded-full">
                       <RiPagesFill className="" />
                     </div>
@@ -172,7 +191,10 @@ function Header({}: Props) {
                   MARKETING
                 </div>
                 <li>
-                  <a>
+                  <a
+                    href="pozycjonowanie"
+                    className="active:bg-orange-500 group focus:bg-none"
+                  >
                     <div className="justify-center items-center group-active:bg-white text-white group-active:text-orange-500 bg-orange-500 w-[40px] h-[40px] flex rounded-full">
                       <RiPagesFill className="" />
                     </div>
@@ -198,9 +220,15 @@ function Header({}: Props) {
                 Case Studies
               </li>
             </Link>
-            <li>
-              <a>Blog</a>
-            </li>
+            <Link href="case-studies">
+              <li
+                className={`${
+                  router.pathname == "/blog" ? "text-orange-500" : ""
+                } p-5`}
+              >
+                Blog
+              </li>
+            </Link>
             <Link href="kontakt">
               <li
                 className={`${

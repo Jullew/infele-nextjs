@@ -20,40 +20,37 @@ function nowoczesne_strony_internetowe({}: Props) {
           subtitle="W odpowiedzi na oczekiwania naszych klientów, w ofercie mamy wiele rozwiązań technologicznych, dopasowanych do indywidualnych potrzeb biznesowych"
         />
         <div className="relative lg:left-[50%] lg:translate-x-[-30%]">
-          <Link href="/strony-wordpress">
-            <CardWebsite
-              title="Strony internetowe Wordpress"
-              description="Dla prostych rozwiązań, Lorem ipsum dolor sit amet consectetur
+          <CardWebsite
+            title="Strony internetowe Wordpress"
+            description="Dla prostych rozwiązań, Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Accusantium temporibus illum provident eius,
                 harum asperiores. Ducimus veritatis saepe velit libero, aut hic.
                 Possimus expedita, eveniet nisi tenetur corrupti voluptatem
                 soluta?"
-            />
-          </Link>
+            href="/strony-wordpress"
+          />
         </div>
         <div className="relative lg:left-[50%] my-10 lg:translate-x-[-30%]">
-          <Link href="/strony-react-js">
-            <CardWebsite
-              title="Strony internetowe React.js"
-              description="Dla prostych rozwiązań, Lorem ipsum dolor sit amet consectetur
+          <CardWebsite
+            title="Strony internetowe React.js"
+            description="Dla prostych rozwiązań, Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Accusantium temporibus illum provident eius,
                 harum asperiores. Ducimus veritatis saepe velit libero, aut hic.
                 Possimus expedita, eveniet nisi tenetur corrupti voluptatem
                 soluta?"
-            />
-          </Link>
+            href="/strony-react-js"
+          />
         </div>
         <div className="relative lg:left-[50%] lg:translate-x-[-30%]">
-          <Link href="/headless-cms">
-            <CardWebsite
-              title="Strony internetowe Headless CMS"
-              description="Dla prostych rozwiązań, Lorem ipsum dolor sit amet consectetur
+          <CardWebsite
+            title="Strony internetowe Headless CMS"
+            description="Dla prostych rozwiązań, Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Accusantium temporibus illum provident eius,
                 harum asperiores. Ducimus veritatis saepe velit libero, aut hic.
                 Possimus expedita, eveniet nisi tenetur corrupti voluptatem
                 soluta?"
-            />
-          </Link>
+            href="/headless-cms"
+          />
         </div>
       </div>
       <ContactBox />

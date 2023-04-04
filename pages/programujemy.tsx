@@ -24,7 +24,7 @@ function programujemy({}: Props) {
           <CardService
             title="Sklep internetowy"
             description="Otwierasz sklep internetowy i potrzebujesz porady i usługi stworzenia go? Sprawdź naszą ofertę, nowoczesne i profesjonalne rozwiązania biznesowe."
-            link=""
+            link="/nowoczesne-sklepy-internetowe"
           />
           <CardService
             title="Coś niestandardowego"
