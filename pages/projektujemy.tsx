@@ -28,7 +28,7 @@ function projektujemy({}: Props) {
           />
           <CardService
             title="Coś niestandardowego"
-            description="Opis tego"
+            description="Opis tegooi"
             link=""
           />
         </div>
