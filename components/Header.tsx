@@ -143,13 +143,13 @@ function Header({}: Props) {
                   WEB DESIGN
                 </div>
                 <li>
-                  <a>
-                    <div className="justify-center items-center bg-orange-500 w-[40px] h-[40px] flex rounded-full">
-                      <RiPagesFill color="white" className="" />
+                  <a className="active:bg-orange-500 group focus:bg-none">
+                    <div className="justify-center items-center group-active:bg-white text-white group-active:text-orange-500 bg-orange-500 w-[40px] h-[40px] flex rounded-full">
+                      <RiPagesFill className="" />
                     </div>
                     <div className="flex flex-col">
                       <div className="fo-semibold">Strony internetowe</div>
-                      <div className="text-gray-400 fo-regular  text-sm">
+                      <div className="text-gray-400 group-active:text-orange-800 fo-regular  text-sm">
                         Stwórz swoją stronę
                       </div>
                     </div>
@@ -157,12 +157,12 @@ function Header({}: Props) {
                 </li>
                 <li>
                   <a href="strony-internetowe">
-                    <div className="justify-center items-center bg-orange-500 w-[40px] h-[40px] flex rounded-full">
-                      <RiPagesFill color="white" className="" />
+                    <div className="justify-center items-center group-active:bg-white text-white group-active:text-orange-500 bg-orange-500 w-[40px] h-[40px] flex rounded-full">
+                      <RiPagesFill className="" />
                     </div>
                     <div className="flex flex-col">
                       <div className="fo-semibold">Sklepy internetowe</div>
-                      <div className="text-gray-400 fo-regular text-sm">
+                      <div className="text-gray-400 group-active:text-orange-800 fo-regular  text-sm">
                         Otwórz swój sklep online
                       </div>
                     </div>
@@ -173,14 +173,14 @@ function Header({}: Props) {
                 </div>
                 <li>
                   <a>
-                    <div className="justify-center items-center bg-orange-500 w-[40px] h-[40px] flex rounded-full">
-                      <RiPagesFill color="white" className="" />
+                    <div className="justify-center items-center group-active:bg-white text-white group-active:text-orange-500 bg-orange-500 w-[40px] h-[40px] flex rounded-full">
+                      <RiPagesFill className="" />
                     </div>
                     <div className="flex flex-col">
                       <div className="fo-semibold">
                         Pozycjonowanie stron SEO
                       </div>
-                      <div className="text-gray-400 fo-regular text-sm">
+                      <div className="text-gray-400 group-active:text-orange-800 fo-regular  text-sm">
                         Zwiększ widoczność w wyszukiwarkach
                       </div>
                     </div>
