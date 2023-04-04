@@ -2,11 +2,11 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Logo from "../public/logo-dark-h80.png";
+import Logo from "@/public/logo-dark-h80.png";
 import { RiPagesFill } from "react-icons/ri";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import LogoDark from "../public/logo-light-h100.png";
+import LogoDark from "@/public/logo-light-h100.png";
 import { navVariants } from "@/utils/motion";
 
 type Props = {};

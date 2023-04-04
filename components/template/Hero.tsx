@@ -3,7 +3,7 @@ import HeroImage from "../public/slidertop.png";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { slideIn, staggerContainer, textVariant } from "../utils/motion";
+import { slideIn, staggerContainer, textVariant } from "../../utils/motion";
 import Link from "next/link";
 type Props = {};
 

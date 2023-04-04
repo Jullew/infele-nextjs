@@ -1,12 +1,11 @@
 import React from "react";
 import Header from "./Header";
 import Hero from "./Hero";
-import Services from "./Services";
-import Projects from "./Projects";
-import Technologies from "./Technologies";
-import TestimonialsSwiper from "./TestimonialsSwiper";
-import Testimonials from "./Testimonials";
-import Contact from "./Contact";
+import Services from "../services/Services";
+import Projects from "../projects/Projects";
+import Technologies from "../technologies/Technologies";
+import Testimonials from "../testimonials/Testimonials";
+import Contact from "../contact/Contact";
 import Footer from "./Footer";
 
 type Props = {};

@@ -1,5 +1,5 @@
 import React from "react";
-import LogoFooter from "../public/logo-light-h100.png";
+import LogoFooter from "@/public/logo-light-h100.png";
 import Image from "next/image";
 import { BsSendFill } from "react-icons/bs";
 type Props = {};

@@ -1,7 +1,7 @@
-import ContactForm from "@/components/ContactForm";
-import Cursor from "@/components/Cursor";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import ContactForm from "@/components/contact/ContactForm";
+import Cursor from "@/components/misc/Cursor";
+import Footer from "@/components/template/Footer";
+import Header from "@/components/template/Header";
 import React from "react";
 
 type Props = {};

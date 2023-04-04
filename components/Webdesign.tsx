@@ -1,7 +1,7 @@
 import React from "react";
 import { RiShieldStarFill, RiShieldStarLine } from "react-icons/ri";
 import { GiSpeedometer } from "react-icons/gi";
-import ContactForm from "./ContactForm";
+import ContactForm from "./contact/ContactForm";
 
 type Props = {};
 

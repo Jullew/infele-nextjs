@@ -1,11 +1,11 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { staggerContainer } from "../utils/motion";
-import { reviewProjects } from "../constants";
+import { staggerContainer } from "@/utils/motion";
+import { reviewProjects } from "@/constants";
 import ReviewProject from "@/components/ReviewProject";
 import Image from "next/image";
-import ksBizuteria from "../public/ks-bizuteria-logo.png";
+import ksBizuteria from "@/public/ks-bizuteria-logo.png";
 import { BsBoxArrowInRight } from "react-icons/bs";
 import CardProject from "./CardProject";
 type Props = {};

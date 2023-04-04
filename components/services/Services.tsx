@@ -1,6 +1,6 @@
 import React, { Fragment, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import CardService from "../components/CardService";
+import CardService from "../universal/CardService";
 
 type Props = {};
 

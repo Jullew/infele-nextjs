@@ -1,5 +1,5 @@
-import Cursor from "@/components/Cursor";
-import Header from "@/components/Header";
+import Cursor from "@/components/misc/Cursor";
+import Header from "@/components/template/Header";
 import React from "react";
 
 type Props = {};

@@ -1,7 +1,7 @@
-import CardService from "@/components/CardService";
-import Cursor from "@/components/Cursor";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import CardService from "@/components/universal/CardService";
+import Cursor from "@/components/misc/Cursor";
+import Footer from "@/components/template/Footer";
+import Header from "@/components/template/Header";
 import React from "react";
 
 type Props = {};
