@@ -6,7 +6,7 @@ function PageHeading({ title, subtitle }: Props) {
   return (
     <div>
       <div className="pt-36 lg:pt-60 w-[100%] lg:w-[80%] mb-40">
-        <h1 className="fo-semibold text-4xl lg:text-6xl text-[#1e1666]">
+        <h1 className="fo-semibold text-4xl lg:text-6xl text-[#1e1666] dark:text-blue-50">
           {title}
         </h1>
         <p className="w-[100%] lg:w-[65%] py-20 text-gray-500X">{subtitle}</p>

@@ -32,7 +32,7 @@ function Header({}: Props) {
         initial="hidden"
         whileInView="show"
         className={`${
-          color ? "dark:bg-slate-900 bg-white" : ""
+          color ? "dark:bg-slate-950 bg-white" : ""
         } navbar z-10 fixed`}
       >
         <div className="navbar-start">

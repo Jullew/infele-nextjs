@@ -30,8 +30,8 @@ function sklepy_internetowe({}: Props) {
               subtitle="Wybierz rozwiązanie, które lepiej do Ciebie pasuje, poniżej zapoznasz się z dwoma ścieżkami, które realizujemy"
             />
           </div>
-          <div className="xl:mt-40 xl:w-[33%] bg-orange-100 h-[420px] xl:h-[550px]">
-            <div className="bg-gradient-to-br from-yellow-50 hover:scale-105 transition-all relative to-yellow-100 bg-opacity-10 rounded-sm h-full  p-6">
+          <div className="xl:mt-40 xl:w-[33%] h-[420px] xl:h-[550px]">
+            <div className="bg-gradient-to-br from-yellow-50 hover:scale-105 transition-all relative dark:to-black dark:from-slate-900 to-yellow-100 bg-opacity-10 rounded-sm h-full  p-6">
               <h1 className="fo-bold text-5xl">
                 <span className="bg-gradient-to-br bg-clip-text text-transparent from-orange-400 to-yellow-200">
                   Rozwiązania headless eCommerce

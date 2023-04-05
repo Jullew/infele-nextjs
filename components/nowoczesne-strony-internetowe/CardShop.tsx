@@ -14,7 +14,7 @@ function CardShop({ classes, title, icon, description, href }: Props) {
     <Link href={href}>
       <div>
         <div
-          className={`${classes} relative dark:bg-gray-900 dark:bg-opacity-80 dark:shadow-xl dark:hover:bg-gray-800 bg-white group focus:bg-orange-100 focus:shadow-lg hover:bg-orange-100 transition hover:shadow-lg bg-opacity-90 z-2 shadow-md p-8 rounded-lg`}
+          className={`${classes} relative dark:bg-black/60 dark:bg-opacity-80 dark:shadow-xl dark:hover:bg-gray-800 bg-white group focus:bg-orange-100 focus:shadow-lg hover:bg-orange-100 transition hover:shadow-lg bg-opacity-90 z-2 shadow-md p-8 rounded-lg`}
         >
           <div className="flex flex-row justify-between">
             <div className="fo-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl">

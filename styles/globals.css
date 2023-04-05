@@ -71,7 +71,7 @@ html, body {
 
 .text-head {
     color: #1e1666;
-    @apply fo-bold;
+    @apply fo-bold dark:text-blue-50;
 }
 .small_circle {
     width: 16px;

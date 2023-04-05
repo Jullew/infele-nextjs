@@ -10,7 +10,7 @@ type Props = {
 
 function TestimonialsSwiperDetails({ avatar, name, source, desc }: Props) {
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-2xl flex flex-col p-6 w-[80%] my-10 mx-auto shadow-lg flex-auto">
+    <div className="bg-white dark:bg-black/70 rounded-2xl flex flex-col p-6 w-[80%] my-10 mx-auto shadow-lg flex-auto">
       <div className="bg-orange-300 flex items-center text-5xl justify-center w-[70px] mx-auto h-[70px] rounded-full">
         {avatar}
       </div>

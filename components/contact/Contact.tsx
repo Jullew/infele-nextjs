@@ -13,7 +13,7 @@ function Contact({}: Props) {
           urzeczywistnimy Twój pomysł dostarczając niesamowite doświadczenia
         </p>
       </div>
-      <div className="w-[90%] mx-auto lg:w-1/2 bg-white dark:bg-gray-900 shadow-2xl rounded-xl p-6 ">
+      <div className="w-[90%] mx-auto lg:w-1/2 bg-white  dark:bg-black/60 shadow-2xl rounded-xl p-6 ">
         <ContactForm />
       </div>
     </div>

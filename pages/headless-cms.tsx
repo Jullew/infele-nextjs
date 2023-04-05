@@ -14,7 +14,7 @@ function headlesscms({}: Props) {
     <div>
       <Cursor />
       <Header />
-      <div className="container mx-auto p-4 lg:p-20">
+      <div className="container text-gray-500 dark:text-gray-300 mx-auto p-4 lg:p-20">
         <PageHeading
           title="Headless CMS - najlepszy wybór dla super-skalowalnych stron
             internetowych i aplikacji"
@@ -50,7 +50,7 @@ function headlesscms({}: Props) {
             <h2 className="text-4xl xl:text-5xl  text-head py-6">
               Tworzymy skalowalne rozwiązania Headless CMS
             </h2>
-            <div className="text-gray-500 leading-8">
+            <div className=" leading-8">
               <p>
                 Dzięki wdrażaniu rozwiązań headless CMS, które są zorientowane
                 na komunikacji API, budujemy ponadprzeciętne doświadczenia
@@ -71,7 +71,7 @@ function headlesscms({}: Props) {
               rozwiązaniom headless
             </h2>
           </div>
-          <div className="text-gray-500 leading-8">
+          <div className="leading-8">
             <p>
               Dzięki wdrażaniu rozwiązań headless CMS, które są zorientowane na
               komunikacji API, budujemy ponadprzeciętne doświadczenia klientów.

@@ -13,13 +13,13 @@ type Props = {};
 function Projects({}: Props) {
   return (
     <div className="container  mx-auto flex flex-row flex-wrap gap-4 flex-auto w-[100%]">
-      <div className="w-[5%] h-full">
-        <div className="leading-none fo-bold flex  lg:w-px lg:text-left text-[65px] lg:break-all w-[100%] sm:text-[100px]  md:text-[100px] xl:text-[90px]">
+      <div className="w-[100%] xl:w-[5%] h-full">
+        <div className="leading-none fo-bold flex justify-center  lg:w-px lg:text-left text-[65px] lg:break-all w-[100%] sm:text-[100px]  md:text-[100px] xl:text-[90px]">
           PROJEKTY
         </div>
       </div>
       <div className=" w-[100%] m-4 lg:m-0 lg:w-auto h-auto  ">
-        <div className="bg-orange-50 rounded-xl w-auto h-[400px]">
+        <div className="bg-orange-50 dark:bg-black/60 rounded-xl w-auto h-[400px]">
           <Image
             src={ksBizuteria}
             // width={200}
@@ -34,7 +34,7 @@ function Projects({}: Props) {
         </div>
       </div>
       <div className="w-[35%] m-4 lg:m-0 flex-1 h-full">
-        <div className="bg-orange-50 rounded-xl w-full h-[400px]"></div>
+        <div className="bg-orange-50 dark:bg-black/60 rounded-xl w-full h-[400px]"></div>
       </div>
 
       {/* <div className="leading-none fo-bold  text-left text-[65px] break-words w-1 mt-40 sm:text-[100px]  md:text-[100px] xl:text-[90px]">
