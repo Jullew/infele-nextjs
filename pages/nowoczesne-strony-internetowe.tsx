@@ -230,12 +230,17 @@ function nowoczesne_strony_internetowe({}: Props) {
             </p>
 
             <div className="flex flex-row gap-12 justify-center items-center mt-10">
-              <div className="bg-gradient-to-b from-orange-500 to-orange-700 p-6 shadow-md rounded-xl hover:scale-105 cursor-pointer">
-                Zadzwoń
-              </div>
-              <div className="bg-gradient-to-b from-orange-500 to-orange-700 p-6 shadow-md rounded-xl hover:scale-105  cursor-pointer">
-                Napisz
-              </div>
+              <Link href="tel:+48507273855">
+                {" "}
+                <div className="bg-gradient-to-b from-orange-500 to-orange-700 p-6 shadow-md rounded-xl hover:scale-105 cursor-pointer">
+                  Zadzwoń
+                </div>
+              </Link>
+              <Link href="mailto:kontakt@infele.pl">
+                <div className="bg-gradient-to-b from-orange-500 to-orange-700 p-6 shadow-md rounded-xl hover:scale-105  cursor-pointer">
+                  Napisz
+                </div>
+              </Link>
             </div>
             <ContactBox />
           </div>
