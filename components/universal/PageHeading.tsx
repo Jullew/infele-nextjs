@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 type Props = { title: any; subtitle: string };
@@ -15,7 +16,12 @@ function PageHeading({ title, subtitle }: Props) {
             ROZPOCZNIJ PROJEKT
           </button>
           <div className="flex flex-col">
-            <div className=" text-orange-500 ">Zadzwoń 507 273 855</div>
+            <div className=" text-orange-500 ">
+              Zadzwoń{" "}
+              <Link href="tel:+507273855" className="link">
+                507 273 855
+              </Link>
+            </div>
             <div className="text-gray-400">
               Odkryj co możemy dla Ciebie zrobić
             </div>

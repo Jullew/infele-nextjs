@@ -32,7 +32,7 @@ function Header({}: Props) {
         initial="hidden"
         whileInView="show"
         className={`${
-          color ? "dark:bg-slate-950 bg-white" : ""
+          color ? "dark:bg-slate-950 bg-gray-100" : ""
         } navbar z-10 fixed`}
       >
         <div className="navbar-start">
@@ -58,7 +58,12 @@ function Header({}: Props) {
               className="menu menu-compact dropdown-content font-bold mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link href="/">Start</Link>
+                <Link
+                  href="/"
+                  className="active:bg-orange-500 group focus:bg-none"
+                >
+                  Start
+                </Link>
               </li>
               <li tabIndex={0}>
                 <div className="justify-between">
@@ -73,30 +78,56 @@ function Header({}: Props) {
                     <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                   </svg>
                 </div>
-                <ul className="p-2 bg-white rounded-xl shadow-md">
+                <ul className="p-2 dark:bg-slate-950 bg-white rounded-xl shadow-md">
                   <li>
-                    <Link href="/nowoczesne-strony-internetowe">
+                    <Link
+                      href="/nowoczesne-strony-internetowe"
+                      className="active:bg-orange-500 group focus:bg-none"
+                    >
                       Strony internetowe
                     </Link>
                   </li>
                   <li>
-                    <Link href="/nowoczesne-sklepy-internetowe">
+                    <Link
+                      href="/nowoczesne-sklepy-internetowe"
+                      className="active:bg-orange-500 group focus:bg-none"
+                    >
                       Sklepy internetowe
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pozycjonowanie">Pozycjonowanie</Link>
+                    <Link
+                      href="/pozycjonowanie"
+                      className="active:bg-orange-500 group focus:bg-none"
+                    >
+                      Pozycjonowanie
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link href="/case-studies">Case Studies</Link>
+                <Link
+                  href="/case-studies"
+                  className="active:bg-orange-500 group focus:bg-none"
+                >
+                  Case Studies
+                </Link>
               </li>
               <li>
-                <Link href="/blog">Blog</Link>
+                <Link
+                  href="/blog"
+                  className="active:bg-orange-500 group focus:bg-none"
+                >
+                  Blog
+                </Link>
               </li>
               <li>
-                <Link href="/kontakt">Kontakt</Link>
+                <Link
+                  href="/kontakt"
+                  className="active:bg-orange-500 group focus:bg-none"
+                >
+                  Kontakt
+                </Link>
               </li>
             </ul>
           </div>
@@ -151,7 +182,7 @@ function Header({}: Props) {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </Link>
-              <ul className="p-2 shadow-lg dark:bg-slate-900 bg-white font-[100]">
+              <ul className="p-2 shadow-lg dark:bg-slate-950 bg-white font-[100]">
                 <div className="text-gray-500 text-center fo-bold text-sm tracking-widest ">
                   WEB DESIGN
                 </div>

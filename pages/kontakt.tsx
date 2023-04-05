@@ -18,8 +18,10 @@ function contact({}: Props) {
           ZŁAP NAS
         </h1>
       </div>
-      <div className="w-[100vw] left-0 bg-orange-50/95 dark:bg-gray-800/95  h-auto -top-10 lg:-top-20 relative">
-        <ContactBox />
+      <div className="w-[100vw] flex-row flex justify-center items-center flex-auto bg-orange-50/95 dark:bg-gray-800/95  h-auto -top-10 lg:-top-20 relative">
+        <div className="w-[40%]">
+          <ContactBox />
+        </div>
       </div>
 
       <Footer />
