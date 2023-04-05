@@ -18,7 +18,7 @@ function PageHeading({ title, subtitle }: Props) {
           <div className="flex flex-col">
             <div className=" text-orange-500 ">
               Zadzwoń{" "}
-              <Link href="tel:+507273855" className="link">
+              <Link href="tel:+48507273855" className="link">
                 507 273 855
               </Link>
             </div>
